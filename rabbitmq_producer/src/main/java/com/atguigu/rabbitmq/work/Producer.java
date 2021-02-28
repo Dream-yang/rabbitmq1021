@@ -22,6 +22,7 @@ public class Producer {
         }
         channel.close();
         connection.close();
+        System.out.println("hotfix 1111");
     }
 
 }
